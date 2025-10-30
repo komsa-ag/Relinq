@@ -3,6 +3,23 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Remotion.Linq</RootNamespace>
+    <AssemblyName>Remotion.Linq</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Label="nuget">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Komsa.Remotion.Linq</PackageId>
+    <Version>2.2.1-Preview2</Version>
+    <Authors>Jan Friedrich</Authors>
+    <Company>KOMSA AG</Company>
+    <Description>Provides advanced LINQ query parsing and transformation capabilities.</Description>
+    <PackageTags>LINQ;Query;Remotion</PackageTags>
+    <RepositoryUrl>https://github.com/komsa-ag/remotion-linq</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/komsa-ag/remotion-linq</PackageProjectUrl>
+    <Copyright>Copyright © 2025 KOMSA AG</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\AssemblyInfoShared.cs">
