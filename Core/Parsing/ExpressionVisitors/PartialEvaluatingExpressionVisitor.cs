@@ -121,6 +121,12 @@ namespace Remotion.Linq.Parsing.ExpressionVisitors
         var compiledLambda = lambdaWithoutParameters.Compile();
 
         object value = compiledLambda ();
+        
+        // hack @@JFri: Wenn CompiledLambda eine Expression liefert, dann diese noch evaluieren und zurückgeben
+        if (typeof(Expression).IsAssignableFrom(subtree.Type))
+          return Visit((Expression)value);
+        // hack @@JFri end
+        
         return Expression.Constant (value, subtree.Type);
       }
     }

@@ -15,14 +15,13 @@
 // under the License.
 // 
 
-using System;
 using System.Reflection;
 
-[assembly: AssemblyCompany ("rubicon IT GmbH")]
-[assembly: AssemblyProduct ("re-motion Framework: re-linq (www.re-motion.org)")]
-[assembly: AssemblyCopyright ("Copyright (c) rubicon IT GmbH, www.rubicon.eu - Licensed under Apache License, Version 2.0")]
-[assembly: AssemblyTrademark ("")]
-[assembly: AssemblyConfiguration ("Build type: Debug")]
-[assembly: AssemblyVersion ("2.2.0.0")]
-[assembly: AssemblyFileVersion ("2.2.0.24009")]
-[assembly: AssemblyInformationalVersion ("2.2.0-x.9 Debug; ")]
+[assembly: AssemblyCompany("rubicon IT GmbH")]
+[assembly: AssemblyProduct("re-motion Framework: re-linq (www.re-motion.org)")]
+[assembly: AssemblyCopyright("Copyright (c) rubicon IT GmbH, www.rubicon.eu - Licensed under Apache License, Version 2.0")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyConfiguration("Build type: Debug")]
+[assembly: AssemblyVersion("2.1.0.0")]
+[assembly: AssemblyFileVersion("2.1.0.2")]
+[assembly: AssemblyInformationalVersion("2.1.0-x.9 Debug; ")]

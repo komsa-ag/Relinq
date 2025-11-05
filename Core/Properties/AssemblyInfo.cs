@@ -15,6 +15,7 @@
 // under the License.
 // 
 using System;
+using System.Runtime.CompilerServices;
 using System.Reflection;
 using System.Security;
 
@@ -27,6 +28,7 @@ Key features:
 - Provides a framework for user-defined query extensions and transformations")]
 [assembly: AssemblyCulture ("")]
 [assembly: CLSCompliant (true)]
+[assembly: InternalsVisibleTo("Komsa.PersistenceFramework")]
 #if !NET_3_5
 
 [assembly: SecurityTransparent] // required to allow assembly to be linked from assemblies having the AllowPartiallyTrustedCallersAttribute applied
